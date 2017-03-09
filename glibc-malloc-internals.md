@@ -21,4 +21,4 @@ The glibc malloc is derived from ptmalloc (pthreads malloc), which is derived fr
 
 ## Algorithm
 - **Malloc**:
-![glibc malloc algorithm](https://github.com/XingGaoY/Multi-core/raw/master/glibc-malloc.jpg)
+![glibc malloc algorithm](https://github.com/XingGaoY/Multi-core/raw/scripts/glibc-malloc.png)
