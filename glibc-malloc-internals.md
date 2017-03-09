@@ -22,3 +22,8 @@ The glibc malloc is derived from ptmalloc (pthreads malloc), which is derived fr
 ## Algorithm
 - **Malloc**:
 ![glibc malloc algorithm](https://github.com/XingGaoY/Multi-core/raw/scripts/glibc-malloc.png)
+- **Free**
+Freeing memroy does not actually return it to the operating system, instead, marks a chunk of memory as "free to be reused".
+![glibc malloc algorithm](https://github.com/XingGaoY/Multi-core/raw/scripts/glibc-free.png)
+- **Realloc**
+![glibc malloc algorithm](https://github.com/XingGaoY/Multi-core/raw/scripts/glibc-realloc.png)
